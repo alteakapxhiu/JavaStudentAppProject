@@ -52,7 +52,7 @@ TestJava/
 - Java 17 or higher
 - Maven
 - Node.js and npm
-- MySQL 8.x
+- MySQL 8.1
 
 ### Database Setup
 
@@ -101,7 +101,7 @@ The frontend will start on `http://localhost:3000`
 | PUT | `/api/students/{id}` | Update student | 200 OK / 404 Not Found |
 | DELETE | `/api/students/{id}` | Delete student | 204 No Content / 404 Not Found |
 
-### Student Data Model
+### Student Data Model(examle of body its accepts)
 
 ```json
 {
@@ -177,4 +177,4 @@ The API returns appropriate HTTP status codes with JSON error messages:
 
 ## License
 
-This project is created for educational purposes.
+I have used Claude Code to work on this project!Specifically I asked it questions regarding the architecture I wanted to follow and the database connection.
